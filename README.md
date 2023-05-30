@@ -16,7 +16,7 @@ Stateful Stream Processing: Data diproses dengan mempertimbangkan konteks dan in
 
 Jelaskan masing-masing maksud kode berikut sesuai nomor kodenya pada laporan praktikum Anda!
 
-Kode 1
+## Kode 1
 
 sys.argv: Merupakan argumen baris perintah (command-line arguments) yang digunakan dalam program Python atau Scala. Itu digunakan untuk mengambil argumen yang diberikan saat menjalankan program.
 
@@ -34,13 +34,13 @@ lambda line: Ekspresi lambda dalam Python yang digunakan untuk mendefinisikan fu
 
 awaitTermination: Metode dalam StreamingContext yang digunakan untuk menunggu pemrosesan streaming berhenti. Ini memastikan bahwa pemrosesan berjalan terus menerus sampai dihentikan secara manual.
 
-Penjelasan masing-masing kode:
+## Kode 2
 
 nc: nc merupakan singkatan dari "netcat", yaitu perangkat lunak utilitas untuk membaca dan menulis data melalui koneksi jaringan menggunakan protokol TCP atau UDP. Biasanya digunakan dalam contoh-contoh pengujian atau pemrosesan streaming.
 
 lk: lk adalah singkatan dari "local[K]", yang digunakan sebagai parameter pada objek SparkConf untuk menentukan mode lokal dengan K jumlah thread.
 
-Penjelasan masing-masing kode:
+## Kode 3
 
 spark-submit: Perintah yang digunakan untuk mengirimkan aplikasi Spark ke cluster atau menjalankan aplikasi Spark secara lokal
 
@@ -48,7 +48,7 @@ master: Parameter dalam perintah spark-submit untuk menentukan alamat master Spa
 
 local[*]: Mode lokal dalam Spark yang berarti menjalankan aplikasi di mesin lokal dengan menggunakan semua core yang tersedia.
 
-Penjelasan masing-masing kode:
+## Kode 4
 
 ssc.checkpoint: Metode yang digunakan untuk mengatur titik kontrol (checkpoint) dalam StreamingContext. Titik kontrol adalah mekanisme untuk menyimpan status DStream dan memungkinkan pemulihan jika terjadi kegagalan.
 
@@ -58,7 +58,7 @@ updateStateByKey: Operasi pada DStream yang memungkinkan penggunaan informasi st
 
 flatMap: Operasi pada RDD yang menghasilkan multiple output dari setiap elemen dalam RDD.
 
-Penjelasan masing-masing kode:
+## Kode 5
 
 rdd.take(5): Metode dalam RDD yang mengembalikan n elemen pertama dalam RDD sebagai array.
 
